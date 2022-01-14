@@ -8,9 +8,10 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#Demo application">Demo application</a></li>
-    <li><a href="# How to deploy this app on gcp">How to deploy this app on gcp</a></li>
+    <li><a href="#How to deploy this app on gcp">How to deploy this app on gcp</a></li>
     <li><a href="#Requirements">Requirements</a></li>
-    <li><a href="#How to deploy this app on gcp"> Starting the Application</a></li>
+    <li><a href="#Starting the Application"> Starting the Application</a></li>
+      
   </ol>
 </details>
 
