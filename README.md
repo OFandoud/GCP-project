@@ -5,6 +5,7 @@ This application will be used as a demo for DevOps Challenges.
 You should fork/clone this repository to use as a basis for the challenge.
 
 ## Demo application
+![alt text](https://github.com/OFandoud/GCP-project/task.png?raw=true)
 
 ### Requirements
 
