@@ -6,7 +6,7 @@ You should fork/clone this repository to use as a basis for the challenge.
 
 ## Demo application
 
-<img src="https://github.com/OFandoud/GCP-project/task.png" alt="Introduction Banner.." style="text-align: center; margin-bottom: 30px;" />
+<img src="https://github.com/OFandoud/GCP-project/blob/main/task.png" alt="Introduction Banner.." style="text-align: center; margin-bottom: 30px;" />
 
 ### Requirements
 
