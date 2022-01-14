@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://github.com/OFandoud/OFandoud/blob/main/assets/banner.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/OFandoud/OFandoud/blob/main/assets/banner.png" alt="Logo">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
