@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+        app: python-app
+        tier: frontend
+  template:
+    metadata:
+      labels:
+        app: python-app
+        tier: frontend
+    spec:
+      containers:
+      - name: python-application
+        image: gcr.io/gcp-iti-course-2021/python-app:latest
+        env:
+        - name: REDIS_HOST
+          value: "redis-service"
+        - name: REDIS_PORT
+          value: "6379"
+        - name: REDIS_DB
+          value: "0"
+        - name: PORT
+          value: "80"
+        - name: ENVIRONMENT
+          value: "PROD"
+        - name: HOST
+          value: "localhost"
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend
+  labels:
+    app: python-app
+    tier: frontend
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 80
+  selector:
+    app: python-app
+    tier: frontend
