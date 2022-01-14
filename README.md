@@ -10,8 +10,8 @@ You should fork/clone this repository to use as a basis for the challenge.
 
 
 ## How to deploy this app on gcp
-- In final-lab-gcp you will find terraform infrastruture code that build all infra you need to start the app.
-- after that you will need t
+- In [terraform code] you will find terraform infrastruture code that build all infra you need to start the app.
+- In [kubernetes code] you will find kubernetes files to deploy the app on your kubernetes claster.
 ### Requirements
 
 #### System
