@@ -8,6 +8,10 @@ You should fork/clone this repository to use as a basis for the challenge.
 
 <img src="https://github.com/OFandoud/GCP-project/blob/main/task.png" alt="Introduction Banner.." style="text-align: center; margin-bottom: 30px;" />
 
+
+## How to deploy this app on gcp
+- In final-lab-gcp you will find terraform infrastruture code that build all infra you need to start the app.
+- after that you will need t
 ### Requirements
 
 #### System
@@ -64,11 +68,3 @@ You can run the tests by using:
 ```bash
 python tests/test.py
 ```
-
-## License
-
-Copyright (c) 2019 by the Tradebyte Software GmbH.<br/>
-`DevOps-Challenge` is free software, and may be redistributed under the terms specified in the [LICENSE] file.
-
-[license]: /LICENSE
-
