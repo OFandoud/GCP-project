@@ -1,9 +1,6 @@
 <div align="center">
     <img src="https://github.com/OFandoud/OFandoud/blob/main/assets/banner.png" alt="Logo">
   </a>
-
-  <h3 align="center">GCP-project</h3>
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
