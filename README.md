@@ -9,7 +9,7 @@ You should fork/clone this repository to use as a basis for the challenge.
 <img src="https://github.com/OFandoud/GCP-project/blob/main/task.png" alt="Introduction Banner.." style="text-align: center; margin-bottom: 30px;" />
 
 
-## :rocket: How to deploy this app on gcp
+### :rocket: How to deploy this app on gcp
 - In [terraform code] you will find terraform infrastruture code that build all infra you need to start the app.
 - In [kubernetes code] you will find kubernetes files to deploy the app on your kubernetes claster.
 ### Requirements
